@@ -1,3 +1,47 @@
-  label {
-  margin: 60px 5px 60px 5px;
- }
+/**** Main Styling ****/
+
+
+body{
+	margin: auto;
+	text-align: center;
+	font-family: 'Roboto';
+	line-height: 2.2;
+	background-color:D4BEC7; 
+	border: solid;
+	width: 100%;
+}
+
+
+/**** Label Boxes ****/
+
+
+label {
+	font-size: 15px;
+}
+
+
+/**** Text Boxes ****/
+
+
+input {
+	border: solid;
+	margin-left: 10px;
+
+}
+
+
+/**** Submit Button ****/
+
+
+input[type=submit] {
+	margin-bottom: 2%;
+}
+
+
+input[type=submit]:hover  {
+	color: blue;
+
+}
+
+
+

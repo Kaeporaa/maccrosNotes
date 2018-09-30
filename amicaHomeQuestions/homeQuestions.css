@@ -5,7 +5,7 @@ body{
 	margin: auto;
 	text-align: center;
 	font-family: 'Roboto';
-	line-height: 2.2;
+	line-height: 2.4;
 	background-color:D4BEC7; 
 	border: solid;
 	width: 100%;
@@ -27,7 +27,6 @@ input {
 	border: solid;
 	margin-left: 10px;
 
-}
 
 
 /**** Submit Button ****/

@@ -43,7 +43,15 @@ input[type=submit]:hover  {
 }
 
 
-p {
+.question p {
 	display: inline;
 }
 
+.display {
+	margin-top: 15px;
+}
+
+.display p {
+	margin: 4px auto;
+	line-height: 2;
+}

@@ -4,10 +4,10 @@
 
 	<title>Home Underwriting Questions</title>
 	<link rel="stylesheet" type="text/css" href="homeQuestions.css">
-	<script type="text/javascript" 
-	  src="https://code.jquery.com/jquery-2.2.4.min.js"
-	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-	  crossorigin="anonymous""></script>
+	<script  src="https://code.jquery.com/jquery-2.2.4.min.js"
+ 			 integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+ 			 crossorigin="anonymous">
+ 	 </script>
 </head>
 <body>
 
@@ -16,10 +16,10 @@
 <form>
 <!-- 1st Question  -->
 
-<div> 
-	<p>Has your homeowners insurance been cancelled or decined in the past 3 years?</p>
+<div class='question'> 
+	<p id='a'>Has your homeowners insurance been cancelled or decined in the past 3 years?</p>
 
-	<input type="radio" value="yes" name="a" id='ay'>
+	<input type="radio" value="yes" name="a" id='ay' required>
 	<label for='ay'> 
 		Yes 
 	</label>
@@ -29,16 +29,15 @@
 		No
 	</label> 
 
-	<div> <textarea rows="2" cols="50" placeholder="Enter Text Here" name='a'></textarea> </div> 
+	<div> <textarea rows="2" cols="50" placeholder="Enter Text Here"></textarea> </div> 
 </div>
 
 <!-- 2nd question -->
 
-<div> 
-	<p>In the past 5 years have you or any member of your household sustained any losses such as fire, theft or liability? </p>
+<div class='question'> 
+	<p id='b'>In the past 5 years have you or any member of your household sustained any losses such as fire, theft or liability? </p>
 
-
-	<input type="radio" value="yes" name="b" id='by'>
+	<input type="radio" value="yes" name="b" id='by' required>
 	<label for="by"> 
 		Yes 
 	</label>
@@ -53,10 +52,10 @@
 
 <!-- 3rd question -->
 
-<div> 
-	<p>Is the premises unoccupied for more than a month each year? </p>
+<div class='question'> 
+	<p id='c'>Is the premises unoccupied for more than a month each year? </p>
 
-	<input type="radio" value="yes" name="c" id="cy">
+	<input type="radio" value="yes" name="c" id="cy" required>
 	<label for="cy"> 
 		Yes 
 	</label>
@@ -66,15 +65,15 @@
 		No
 	</label> 
 
-	<div><textarea rows="2" cols="50" placeholder="Enter Text Here"></textarea> </div>
+	<div><textarea rows="2" cols="50" placeholder="Enter Text Here" ></textarea> </div>
 </div>
 
 <!-- 4th question -->
 
-<div>
-	<p>Are there any animals on the premises? </p>
+<div class='question'>
+	<p id='d'>Are there any animals on the premises? </p>
 
-	<input type="radio" value="yes" name="d" id="dy">
+	<input type="radio" value="yes" name="d" id="dy" required>
 	<label for="dy"> 
 		Yes 
 	</label>
@@ -89,10 +88,10 @@
 
 <!-- 5th question -->
 
-<div> 
-	<p>Is any business conducted on the premises? </p>
+<div class='question'> 
+	<p id='e'>Is any business conducted on the premises? </p>
 
-	<input type="radio" value="yes" name="e" id="ey">
+	<input type="radio" value="yes" name="e" id="ey" required>
 	<label for="ey"> 
 		Yes 
 	</label>
@@ -107,10 +106,10 @@
 
 <!-- 6th question -->
 
-<div> 
-	<p>Are there any items of high value that would need to be insured seperately like jewlery, furs, or silverware? </p>
+<div class='question'> 
+	<p id='f'>Are there any items of high value that would need to be insured seperately like jewlery, furs, or silverware? </p>
 
-	<input type="radio" value="yes" name="f" id="fy">
+	<input type="radio" value="yes" name="f" id="fy" required>
 	<label for="fy"> 
 		Yes 
 	</label>
@@ -125,10 +124,10 @@
 
 <!-- 7th question -->
 
-<div> 
-	<p>Is there a swimming pool on the premises? </p>
+<div class='question'> 
+	<p id='g'>Is there a swimming pool on the premises? </p>
 
-	<input type="radio" value="yes" name="g" id="gy">
+	<input type="radio" value="yes" name="g" id="gy" required>
 	<label for="gy"> 
 		Yes 
 	</label>
@@ -143,10 +142,10 @@
 
 <!-- 8th question -->
 
-<div> 
-	<p>Is there a trampoline on the premises? </p>
+<div class='question'> 
+	<p id='h'>Is there a trampoline on the premises? </p>
 
-	<input type="radio" value="yes" name="h" id="hy">
+	<input type="radio" value="yes" name="h" id="hy" required>
 	<label for="hy"> 
 		Yes 
 	</label>
@@ -161,10 +160,10 @@
 
 <!-- 9th question -->
 
-<div> 
-	<p>Is there an alternative heating source such as a wood burning stove on the premises? </p>
+<div class='question'> 
+	<p id='i'>Is there an alternative heating source such as a wood burning stove on the premises? </p>
 
-	<input type="radio" value="yes" name="i" id="iy">
+	<input type="radio" value="yes" name="i" id="iy" required>
 	<label for="iy"> 
 		Yes 
 	</label>
@@ -179,10 +178,10 @@
 
 <!-- 10th question -->
 
-<div> 
-	<p>Is there an underground storage tank on the premises? </p>
+<div class='question'> 
+	<p id='j'>Is there an underground storage tank on the premises? </p>
 
-	<input type="radio" value="yes" name="j" id="jy">
+	<input type="radio" value="yes" name="j" id="jy" required>
 	<label for="jy"> 
 		Yes 
 	</label>
@@ -197,10 +196,10 @@
 
 <!-- 11th question -->
 
-<div> 
-	<p>Do any household residents own firearms? </p>
+<div class='question'> 
+	<p id='k'>Do any household residents own firearms? </p>
 
-	<input type="radio" value="yes" name="k" id="ky">
+	<input type="radio" value="yes" name="k" id="ky" required>
 	<label for="ky"> 
 		Yes 
 	</label>
@@ -215,10 +214,10 @@
 
 <!-- 12th question -->
 
-<div> 
-	<p>Are there any other structures on the premises? </p>
+<div class='question'> 
+	<p id='l'>Are there any other structures on the premises? </p>
 
-	<input type="radio" value="yes" name="l" id="ly">
+	<input type="radio" value="yes" name="l" id="ly" required>
 	<label for="ly"> 
 		Yes 
 	</label>
@@ -233,10 +232,10 @@
 
 <!-- 13th question -->
 
-<div> 
-	<p>Do you own another residence? </p>
+<div class='question'> 
+	<p id='m'>Do you own another residence? </p>
 
-	<input type="radio" value="yes" name="m" id="my">
+	<input type="radio" value="yes" name="m" id="my" required>
 	<label for="my"> 
 		Yes 
 	</label>
@@ -251,10 +250,10 @@
 
 <!-- 14th question -->
 
-<div> 
-	<p>Is Flood/Earthquake coverage wanted? </p>
+<div class='question'> 
+	<p id='n'>Is Flood/Earthquake coverage wanted? </p>
 
-	<input type="radio" value="yes" name="n" id="ny">
+	<input type="radio" value="yes" name="n" id="ny" required>
 	<label for="ny"> 
 		Yes 
 	</label>
@@ -269,10 +268,10 @@
 
 <!-- 15th question -->
 
-<div> 
-	<p>Is Water Backup coverage wanted? </p>
+<div class='question'> 
+	<p id='o'>Is Water Backup coverage wanted? </p>
 
-	<input type="radio" value="yes" name="o" id="oy">
+	<input type="radio" value="yes" name="o" id="oy" required>
 	<label for="oy"> 
 		Yes 
 	</label>

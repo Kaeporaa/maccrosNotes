@@ -6,11 +6,10 @@ body{
 	text-align: center;
 	font-family: 'Roboto';
 	line-height: 2.4;
-	background-color:D4BEC7; 
+	background-color: #D4BEC7; 
 	border: solid;
 	width: 100%;
 }
-
 
 /**** Label Boxes ****/
 
@@ -26,6 +25,7 @@ label {
 input {
 	border: solid;
 	margin-left: 10px;
+}
 
 
 
@@ -43,4 +43,15 @@ input[type=submit]:hover  {
 }
 
 
+.question p {
+	display: inline;
+}
 
+.display {
+	margin-top: 15px;
+}
+
+.display p {
+	margin: 4px auto;
+	line-height: 2;
+}

@@ -16,8 +16,11 @@ $('form').submit(function(event){
 	var formData = ($(this).serializeArray()); // get form data array
 	formData.forEach(function(entry, index){
 		// add question, radio value and textarea value to html string
-		html += "<div class='display'><p> " + questions[index] + "  " + entry.value.toUpperCase() + '</p>'
-		html += "<p>" + textAreas[index].value + "</p></div>"; 
+		if (entry.value === 'yes'){
+			html += "<div class='display'><p> " + questions[index] + "  " + entry.value.toUpperCase() + '</p>'
+			html += "<p>" + textAreas[index].value + "</p></div>"; 
+		}
+		
 	})
 	// display html string in display div
 	$('#display').html(html); 
